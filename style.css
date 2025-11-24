@@ -13,7 +13,8 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: 0.2 linear;
+    transition: 0.2s linear;
+     font-family: "Roboto", sans-serif;
 }
 
 body{
@@ -21,7 +22,7 @@ body{
 }
 
 section{
-    padding: 3re. 2rem;
+    padding: 3rem 2rem;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -43,7 +44,70 @@ section{
     padding-bottom: 1.5rem;
 }
 
-.navbar{
-    margin: 0;
-    
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.imagem {
+    border-radius: 50%;
+}
+
+.navbar a:hover {
+    color: var(--bg);
+    border-bottom: 0.1rem solid var(--black);
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.icons img{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.btn {
+    background: #d3ad7f;
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.home-container {
+    background: url("./47136643-cafe-com-leite-e-especiarias-gratis-foto.jpg");
+    height: 100vh;
+    background-position: center;
+   background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.contente {
+    max-width: 600rem;
+}
+
+.contente h3 {
+    color: #fff;
+    font-size: 600rem;
+}
+
+.contente p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 1rem 0;
 }
