@@ -34,6 +34,7 @@ section{
     right: 0;
     z-index: 99;
     border-bottom: var(--bg);
+    background-color: var(#b3907a);
 }
 
 .header section{
@@ -81,6 +82,10 @@ section{
     display: inline-block;
 }
 
+.btn:hover {
+    letter-spacing: 0.2;
+}
+
 .home-container {
     background: url("./47136643-cafe-com-leite-e-especiarias-gratis-foto.jpg");
     height: 100vh;
@@ -110,4 +115,39 @@ section{
     font-weight: 300;
     line-height: 1.8;
     padding: 1rem 0;
+}
+.title{
+    font-size: 4rem;
+    color: bisque;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.title span{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.about .row {
+    display: flex;
+    background-color: var(--black);
+    gap: 1.5rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.about .row .content p {
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
 }
